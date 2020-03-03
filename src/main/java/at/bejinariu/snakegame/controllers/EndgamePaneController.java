@@ -33,8 +33,8 @@ import javafx.stage.Stage;
 
 /**
  * FXML Controller class
- *
- * @author Dru
+ * 
+ * @author Dru 
  */
 public class EndgamePaneController implements Initializable {
 

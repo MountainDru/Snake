@@ -8,6 +8,7 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+//Version 1.1.1
 public class MainApp extends Application {
 
     public static final Image APP_ICON = new Image(MainApp.class.getClass().getResource("/pictures/icon.png").toString());
