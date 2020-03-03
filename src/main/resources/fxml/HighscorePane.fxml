@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="tblTableList" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.bejinariu.snakegame.controllers.HighscorePaneController">
+  <columns>
+    <TableColumn fx:id="colPlayer" editable="false" maxWidth="135.0" prefWidth="135.0" style="-fx-alignment: CENTER;" text="Player" />
+    <TableColumn fx:id="colScore" editable="false" maxWidth="75.0" minWidth="6.0" prefWidth="75.0" style="-fx-alignment: CENTER;" text="Score" />
+      <TableColumn fx:id="colDate" editable="false" maxWidth="140.0" prefWidth="139.0" style="-fx-alignment: CENTER;" text="Date/Time" />
+      <TableColumn fx:id="colBorders" editable="false" maxWidth="130.0" prefWidth="130.0" style="-fx-alignment: CENTER;" text="Borders enabled" />
+      <TableColumn fx:id="colSpeed" editable="false" maxWidth="130.0" prefWidth="130.0" style="-fx-alignment: CENTER;" text="Snake speed " />
+  </columns>
+</TableView>
