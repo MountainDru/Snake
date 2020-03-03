@@ -13,6 +13,8 @@ public class MainApp extends Application {
 
     public static final Image APP_ICON = new Image(MainApp.class.getClass().getResource("/pictures/icon.png").toString());
 
+    
+    
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
